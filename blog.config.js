@@ -126,6 +126,12 @@ const BLOG = {
       artist: 'Falcom Sound Team jdk',
       url: 'https://music.163.com/song/media/outer/url?id=29769611.mp3',
       cover: 'http://p1.music.126.net/my8jpMEwcj5lH_KegnN2Fw==/109951163679445839.jpg'
+    },
+    {
+      name: 'girlfirend',
+      artist: 'Falcom Sound Team jdk',
+      url: 'https://music.163.com/song/media/outer/url?id=28302850.mp3',
+      cover: 'http://p2.music.126.net/jkjF_OV8f9vGWFU4TMimKA==/1377688079784915.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
